@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
@@ -15,13 +14,6 @@ public class Main {
 
         int opcion1 = sc.nextInt();
 
-        switch (opcion1) {
-            case 1:
-                System.out.println(" Has escogido la opcion de Crear un contacto");
-                break;
-        
-            default:
-                break;
-        }
+        System.out.println("Has escojido la opcion " + opcion1);
     }
 }
