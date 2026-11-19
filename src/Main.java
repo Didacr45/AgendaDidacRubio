@@ -14,6 +14,16 @@ public class Main {
 
         int opcion1 = sc.nextInt();
 
-        System.out.println("Has escojido la opcion " + opcion1);
+        if (opcion1 == 1) {
+            System.out.println("Has escojido la opcion crear un contacto");
+        } else if (opcion1 == 2) {
+            System.out.println("Has escojido la opcion buscar contacto existente");
+        } else if (opcion1 == 3) {
+            System.out.println("Has escojido la opcion crear informacion de un contacto existente");
+        } else if (opcion1 == 4) {
+            System.out.println("Has escojido la opcion borrar un contacto ya existente");
+        } else {
+           System.out.println("Has escojido la opcion salir de la agenda"); 
+        }
     }
 }
